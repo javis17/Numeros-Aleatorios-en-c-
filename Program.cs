@@ -25,7 +25,7 @@
                 {
                     Console.WriteLine("El numero es menor. Intenta de nuevo.");
                 }
-            } while ();
+            } while (intento != numeroPredefinido);
         }
     }
 }
