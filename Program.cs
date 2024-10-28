@@ -14,8 +14,8 @@
             do
             {
                 Console.Write("Introduce tu intento: ");
-                intento = int.Parse(Console.ReadLine());    
-
+                intento = int.Parse(Console.ReadLine());
+                numeroIntentos = numeroIntentos + 1;   
             } while ();
         }
     }
