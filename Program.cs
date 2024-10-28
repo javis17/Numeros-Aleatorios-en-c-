@@ -11,6 +11,9 @@
 
             Console.WriteLine("Adivina un numero entre 1 y 10: ");
 
+            do
+            {
+            } while ();
         }
     }
 }
