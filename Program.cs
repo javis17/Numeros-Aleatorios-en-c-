@@ -26,6 +26,8 @@
                     Console.WriteLine("El numero es menor. Intenta de nuevo.");
                 }
             } while (intento != numeroPredefinido);
+
+            Console.WriteLine($"¡Felicidades! Adivinaste el numero {numeroPredefinido} despues de {numeroIntentos} intentos.")
         }
     }
 }
