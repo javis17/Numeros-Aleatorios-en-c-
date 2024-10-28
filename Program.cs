@@ -15,11 +15,15 @@
             {
                 Console.Write("Introduce tu intento: ");
                 intento = int.Parse(Console.ReadLine());
-                numeroIntentos = numeroIntentos + 1; 
-                
+                numeroIntentos = numeroIntentos + 1;
+
                 if (intento < numeroPredefinido)
                 {
                     Console.WriteLine("El numero es mayor. Intenta de nuevo.");
+                }
+                else if (intento > numeroIntentos);
+                {
+                    Console.WriteLine("El numero es menor. Intenta de nuevo.");
                 }
             } while ();
         }
