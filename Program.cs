@@ -5,11 +5,11 @@
         static void Main(string[] args)
         {
             Random random = new Random();
-            int numeroPredefinido = random.Next(1,10);
+            int numeroPredefinido = random.Next(1, 10);
             int intento;
             int numeroIntentos = 0;
 
-            Console.WriteLine("Adivina un numero entre 1 y 10: ");
+            Console.WriteLine("Adivina un número entre 1 y 10:");
 
             do
             {
@@ -19,15 +19,16 @@
 
                 if (intento < numeroPredefinido)
                 {
-                    Console.WriteLine("El numero es mayor. Intenta de nuevo.");
+                    Console.WriteLine("El número es mayor. Intenta de nuevo.");
                 }
-                else if (intento > numeroIntentos);
+                else if (intento > numeroPredefinido)
                 {
-                    Console.WriteLine("El numero es menor. Intenta de nuevo.");
+                    Console.WriteLine("El número es menor. Intenta de nuevo.");
                 }
+
             } while (intento != numeroPredefinido);
 
-            Console.WriteLine($"¡Felicidades! Adivinaste el numero {numeroPredefinido} despues de {numeroIntentos} intentos.")
+            Console.WriteLine($"¡Felicidades! Adivinaste el número {numeroPredefinido} después de {numeroIntentos} intentos.");
         }
     }
 }
