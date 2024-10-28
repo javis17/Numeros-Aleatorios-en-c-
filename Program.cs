@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Random random = new Random();
+            int numeroPredefinido = random.Next(1,10);
         }
     }
 }
