@@ -13,6 +13,8 @@
 
             do
             {
+                Console.Write("Introduce tu intento: ");
+
             } while ();
         }
     }
