@@ -8,6 +8,9 @@
             int numeroPredefinido = random.Next(1,10);
             int intento;
             int numeroIntentos = 0;
+
+            Console.WriteLine("Adivina un numero entre 1 y 10: ");
+
         }
     }
 }
