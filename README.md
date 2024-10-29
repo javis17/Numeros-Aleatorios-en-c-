@@ -21,7 +21,7 @@ Introduce tu intento: 7
 
    1. Clona el repositorio:
       ```plaintext
-      git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+      git clone https://github.com/javis17/Numeros-Aleatorios-en-c-
       ```
    2. Abre el proyecto en tu entorno de desarrollo (recomendado: Visual Studio).
    3. Ejecuta el juego y sigue las instrucciones en la consola.
